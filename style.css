@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+
+body{
+  background-color: hsl(47, 88%, 63%);
+  font-family: "Figtree";
+}
+
+.container{
+  max-width: 384px;
+
+  margin: 0 auto;
+  margin-top: 20vh;
+  
+}
+
+.card{
+  background: #fff;
+  padding: 24px;
+  border-radius: 12px;
+  border: 1px solid #000;
+  filter: drop-shadow(8px 8px 4px #000);
+}  
+
+img{
+  border-radius: 12px;
+}
+
+#learning{
+  background-color: hsl(47, 88%, 63%);
+  padding:8px ;
+  font-weight: 800;
+  max-width: 80px;
+  padding: 8px 12px;
+  border-radius: 8px;
+  margin-bottom: 12px;
+
+}
+h1{
+  font-size: 28px;
+  overflow: hidden;
+  white-space: nowrap;
+  font-weight: 800;
+
+}
+#date{
+  font-weight: 500;
+  padding-top: 12px;
+}
+p{
+  color: hsl(0, 0%, 42%);
+  font-size: 16px;
+  line-height: 1.8;
+  font-weight: 500;
+}
+#auth{
+ display: flex;
+ align-items: center;
+ 
+ 
+}
+#auth p{
+  font-size: 16px;
+ font-weight: 900;
+ color: #000;
+}
+#img2{
+  width: 32px;
+  height: 32px;
+  margin-right: 12px;
+
+}
+.card-details{
+ 
+
+  margin: 1rem auto;
+  text-align:left;
+  
+  
+}
+
